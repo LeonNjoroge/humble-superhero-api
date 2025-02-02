@@ -1,0 +1,41 @@
+{
+  "name": "humble-superhero-api",
+  "version": "1.0.0",
+  "description": "Simople API",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node server.js",
+    "client": "webpack serve --config webpack.config.js",
+    "dev": "nodemon server.js",
+    "build": "webpack --config webpack.config.js --mode production"
+  },
+  "author": "Leon Njoroge",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.7",
+    "@babel/preset-env": "^7.26.7",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^9.2.1",
+    "concurrently": "^9.1.2",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "style-loader": "^4.0.0",
+    "supertest": "^7.0.0",
+    "terser-webpack-plugin": "^5.3.11",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
