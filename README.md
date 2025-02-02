@@ -59,6 +59,11 @@ To build the project for production (with minification and optimizations), run:
 npm run build
 ```
 
+YOu can start the porduction environment using this command:
+```bash
+npm run start
+```
+
 ### 5. Run Tests
 You can run tests using Jest by using this command:
 ```bash
