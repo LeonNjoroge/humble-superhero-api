@@ -85,7 +85,7 @@ Collaboration is key to improving and expanding this project. If working with a 
 - Clearly document the code to make it easier for them to understand and contribute.
 - Break the task down to frontend and backend so that the work is done faster
 - Implement the functionality of accessing different external Apis to get more information about the super hero if he exist in that database
-- Ofer peer code reviews to ensure that the production code is working as expected
+- Offer peer code reviews to ensure that the production code is working as expected
 - Regularly communicate to update each other on progress oand solve complex problems together
 
 ## If I Had More Time
