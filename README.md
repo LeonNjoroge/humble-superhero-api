@@ -14,7 +14,7 @@ This project allows users to manage a list of superheroes, including their names
 
 ### Backend
 - **Node.js**
-- **Express**: Bckend framework
+- **Express**: Backend framework
 - **CORS**: For handling cross-origin requests from the frontend.
 - **body-parser**: To parse incoming request bodies.
 
