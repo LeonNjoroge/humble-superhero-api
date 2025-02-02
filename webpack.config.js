@@ -57,7 +57,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './client/public/index.html',  // Path to index.html
     }),
-    new BundleAnalyzerPlugin(),
   ],
   devServer: {
     static: path.join(__dirname, 'client/dist'),
