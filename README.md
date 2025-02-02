@@ -9,6 +9,7 @@ This project allows users to manage a list of superheroes, including their names
 - **Backend**: The backend is built with Express.js, using an in-memory array to store superheroes.
 - **Frontend**: The frontend is a React app that uses Axios for API calls. It fetches and displays superheroes from the backend, and allows users to add new superheroes.
 
+
 ## Tech Stack
 
 ### Backend
@@ -59,7 +60,7 @@ To build the project for production (with minification and optimizations), run:
 npm run build
 ```
 
-YOu can start the porduction environment using this command:
+To run the API and React client in production, use this command
 ```bash
 npm run start
 ```
