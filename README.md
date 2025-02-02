@@ -44,18 +44,18 @@ Run the following command to install both **production** and **development** dep
 npm install
 ```
 
-### 3. Start development enviornment
-To run the API and React client in development, use this command
+### 3. Start backend in development enviornment
+To run the API in development, use this command
 ```bash
 npm run dev
 ```
 This will:
     - Start the Express server on http://localhost:3000
-    - Serve the React application on http://localhost:3001
+    
 
 
 ### 4. Start the production development
-To build the project for production (with minification and optimizations), run:
+To build the project for production including the API and React client (with minification and optimizations), run:
 ```bash
 npm run build
 ```
@@ -64,6 +64,9 @@ To run the API and React client in production, use this command
 ```bash
 npm run start
 ```
+This will:
+    - Start the Express server on http://localhost:3000
+    - Serve the React application on http://localhost:3001
 
 ### 5. Run Tests
 You can run tests using Jest by using this command:
